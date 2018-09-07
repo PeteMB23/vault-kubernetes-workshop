@@ -6,7 +6,7 @@ if [ -z "${GOOGLE_CLOUD_PROJECT}" ]; then
   exit 1
 fi
 
-ZONE="us-west1-b"
+ZONE="europe-north1-b"
 
 # Create a cluster with alpha features so we can do process namespace sharing
 gcloud container clusters create my-apps \
